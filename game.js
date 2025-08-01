@@ -29,7 +29,7 @@
   const WORLD_WIDTH = 60;
   const WORLD_HEIGHT = 60;
   const CELL_SIZE = 50;
-  const FRUIT_SPAWN_INTERVAL = 3000; // ms
+  const FRUIT_SPAWN_INTERVAL = 300; // ms
   const MAX_FRUIT_COUNT = 40;
 
   let gameRunning = false;
