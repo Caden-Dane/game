@@ -26,11 +26,11 @@
   resizeCanvas();
 
   // World configuration
-  const WORLD_WIDTH = 60;
-  const WORLD_HEIGHT = 60;
+  const WORLD_WIDTH = 200;
+  const WORLD_HEIGHT = 200;
   const CELL_SIZE = 50;
   const FRUIT_SPAWN_INTERVAL = 300; // ms
-  const MAX_FRUIT_COUNT = 40;
+  const MAX_FRUIT_COUNT = 90;
 
   let gameRunning = false;
   let player = null;
