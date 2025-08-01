@@ -28,7 +28,7 @@
   // World configuration
   const WORLD_WIDTH = 200;
   const WORLD_HEIGHT = 200;
-  const CELL_SIZE = 50;
+  const CELL_SIZE = 100;
   const FRUIT_SPAWN_INTERVAL = 300; // ms
   const MAX_FRUIT_COUNT = 90;
 
