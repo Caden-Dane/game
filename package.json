@@ -1,0 +1,15 @@
+{
+  "name": "multiplayer-fruit-game",
+  "version": "1.0.0",
+  "description": "A browser‑based multiplayer grid game where players grow by eating fruit.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2"
+  }
+}
