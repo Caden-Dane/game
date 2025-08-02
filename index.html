@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fruit Grower – Single Player</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="ui-container">
+      <div id="scoreboard">
+        <h2>Status</h2>
+        <p id="score-value">Score: 0</p>
+        <p id="level-value">Level: 0</p>
+        <p id="ammo-value">Ammo: 0</p>
+        <p id="health-value">Health: 100</p>
+        <p id="upgrade-points">Upgrade Pts: 0</p>
+        <p id="bots-value">Bots: 0</p>
+        <div id="upgrade-list"></div>
+      </div>
+      <div id="player-info">
+        <input id="name-input" type="text" placeholder="Enter your name" />
+        <button id="start-btn">Start</button>
+        <button id="fire-btn" style="display: none;">Fire</button>
+        <p id="status"></p>
+      </div>
+    </div>
+    <canvas id="game-canvas"></canvas>
+    <script src="game.js"></script>
+  </body>
+</html>
